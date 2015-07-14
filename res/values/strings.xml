@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bliinder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="facebook_app_id">777065282377270</string>
+    <string name="click_to_see_partner_details">Click To See Your Partner Details</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToParterDetails"
+        android:text="@string/click_to_see_partner_details" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center"
+        android:text="Waiting For An Answer... "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/waiting" />
+
+</LinearLayout>

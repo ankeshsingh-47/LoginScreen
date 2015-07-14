@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/has_exploits"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/searchExploitsArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:clickable="true" >
+
+        <EditText
+            android:id="@+id/inputBliiderDatesSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="0.86"
+            android:ems="10"
+            android:hint="Search a date..."
+            android:inputType="textVisiblePassword" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/exploitMagnifyingGlass"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:src="@drawable/search_icon"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/bliinderDatesList"
+        android:layout_width="fill_parent"
+        android:layout_height="407dp"
+        android:layout_weight="1.52"
+        android:choiceMode="singleChoice" />
+
+</LinearLayout>
